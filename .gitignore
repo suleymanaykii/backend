@@ -1,0 +1,18 @@
+# .gitignore
+
+# Django migrations
+**/migrations/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+*.log
+db.sqlite3
+
+# Sanal ortam
+venv/
+env/
